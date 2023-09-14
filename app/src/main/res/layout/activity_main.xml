@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
+    <Button
+        android:id="@+id/btnPrimerFragmento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Primer Fragmento"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnSegundoFragmento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segundo fragmento"
+        android:textSize="20sp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
 </LinearLayout>

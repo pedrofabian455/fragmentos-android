@@ -18,14 +18,14 @@ public class MainActivity extends AppCompatActivity {
         primerFragmento = (Button) findViewById(R.id.btnPrimerFragmento);
         segundoFragmento = (Button) findViewById(R.id.btnSegundoFragmento);
 
-        primerFragmento.setOnClickListener(new View.onClickListener(){
+        primerFragmento.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 cargarFragmento(new PrimerFragmento());
             }
         });
 
-        segundoFragmento.setOnClickListener(new View.onClickListener(){
+        segundoFragmento.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 cargarFragmento(new SegundoFragmento());
